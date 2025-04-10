@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="shortcut icon" href="Images/6243378.jpg" type="image/x-icon">
+  <title>Adventure Website</title>
+  <link rel="stylesheet" href="adventure.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo"><a href="#">DI BTEC</a></div>
+      <nav>
+          <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="journey.html">Journeys</a></li>
+              <li><a href="adventure.html">Adventure</a></li>
+              <!-- <li><a href="#" class="book-btn">Book Now</a></li> -->
+          </ul>
+          <a href="contact.html" class="book-btn">Book Now</a>
+          <div class="hamburger" onclick="toggleMenu()">
+              &#9776;
+          </div>
+      </nav>
+  </header>
+
+  <!-- Nature Wonders -->
+  <section class="wonders">
+    <h2>The Wonders Of Nature</h2>
+    <p>We aim to provide the ultimate connection to outdoor wonders around the world.</p>
+
+    <div class="cards">
+      <div class="card"><img src="Images/3d-rendering-triangle-forest.jpg" alt="Nature 1"/><p>Mountain Sunrise</p></div>
+      <div class="card"><img src="images/greenhouse-with-botanical-plants.jpg" alt="Nature 2"/><p>Forest Serenity</p></div>
+      <div class="card highlight"><img src="images/pexels-abdessamad-lotfi-14371663-30667614 (1).jpg" alt="Nature 3"/><p>Cliff Adventures</p></div>
+      <div class="card"><img src="Images/dark-fantasy-scene.jpg" alt="Nature 4"/><p>Red Rock Trail</p></div>
+    </div>
+
+    <div class="cards">
+      <div class="card"><img src="Images/mysterious-scene-with-house-forest.jpg" alt="Nature 1"/><p>Mountain Sunrise</p></div>
+      <div class="card"><img src="images/peter-thomas-QAR2r9db_y8-unsplash.jpg" alt="Nature 2"/><p>Forest Serenity</p></div>
+      <div class="card highlight"><img src="images/julian-morenz-5OgchXfT-6Y-unsplash.jpg" alt="Nature 3"/><p>Cliff Adventures</p></div>
+      <div class="card"><img src="Images/vertical-shot-beautiful-stock-dove-reflecting-lake.jpg" alt="Nature 4"/><p>Red Rock Trail</p></div>
+    </div>
+
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="why-us">
+    <h2>Reason For Choosing Us</h2>
+    <div class="reasons">
+      <div class="reason">
+        <h3>✓ Trusted</h3>
+        <p>Over 20+ locations worldwide</p>
+      </div>
+      <div class="reason">
+        <h3>✓ Real-time Support</h3>
+        <p>Guides & support 24/7</p>
+      </div>
+      <div class="reason">
+        <h3>✓ One-stop Travel</h3>
+        <p>All you need, in one place</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore Section -->
+  <section class="explore">
+    <div class="gallery">
+      <img src="images/pexels-pinamon-31422622.jpg" alt="Parrots"/>
+      <img src="Images/carter-baran-fPZIsh6weFI-unsplash.jpg" alt="Forest"/>
+      <img src="Images/black-white-view-off-road-vehicle-driven-rough-terrain.jpg" alt="Jeep in Bush"/>
+    </div>
+    <div class="text">
+      <h2>Here’s what makes a vacation perfect for you!</h2>
+      <p>
+        Whether you're planning a family vacation, a solo getaway, or an adventurous excursion,
+        vacation trails are ideal for all types of travelers.
+      </p>
+      <a href="contact.html" class="btn">Book Now</a>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="cta-section">
+    <div class="cta-content">
+      <h2>Travel with Us</h2>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col logo-col">
+        <h3>🌊 Travel.</h3>
+        <p>Your next favourite place awaits</p>
+        <div class="social-icons">
+          <a href="#">🐦</a>
+          <a href="#">📘</a>
+          <a href="#">📸</a>
+          <a href="#">▶️</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Our Agency</h4>
+        <ul>
+          <li>Services</li>
+          <li>Destination</li>
+          <li>Agency</li>
+          <li>Support</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Partners</h4>
+        <ul>
+          <li>Booking</li>
+          <li>Rentalcars</li>
+          <li>Hostelworld</li>
+          <li>Trivago</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Last Minute</h4>
+        <ul>
+          <li>Accra</li>
+          <li>Koforidua</li>
+          <li>Ho</li>
+          <li>Cape-Coast</li>
+        </ul>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>THE BEST ADVENTURE TRAVEL 2025</p>
+      <p>&copy; Teeavel 2025</p>
+    </div>
+  </footer>
+
+
+
+
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("show");
+        }
+    </script>
+
+</body>
+</html>

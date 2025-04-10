@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f6f9ff;
+  /* color: #333;
+  line-height: 1.6; */
+}
+
+ header {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  height: 90px;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  margin: 0 15px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.book-btn {
+  background: #007BFF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.upper-main {
+  background: linear-gradient(rgba(0, 0, 50, 0.6), rgba(0, 0, 50, 0.6)), url(images/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan.jpg) center/cover;
+  padding: 60px 20px;
+  color: #fff;
+  text-align: center;
+  margin-top: 90px;
+}
+
+.upper-main h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1 1 400px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.contact-info h3,
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #001f6d;
+}
+
+.info-block {
+  margin-bottom: 20px;
+}
+
+.info-block i {
+  margin-right: 10px;
+  color: #0057ff;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form button {
+  padding: 12px 24px;
+  background-color: #0057ff;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0044cc;
+}
+
+/* .map {
+  margin: 30px auto;
+  max-width: 1200px;
+} */
+
+.map iframe{
+  width:100%;
+  height: 400px;
+}
+
+/* footer {
+  background-color: #001f6d;
+  color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+footer .footer-col {
+  flex: 1 1 250px;
+  margin: 10px 0;
+}
+
+footer h4 {
+  margin-bottom: 10px;
+}
+
+footer input[type="email"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+footer button {
+  padding: 10px;
+  background-color: #0057ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer .social-icons i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .container,
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+
+/* Footer */
+.footer {
+  background-image: linear-gradient(rgba(0, 123, 255, 0.591), rgba(0, 140, 255, 0.514), rgba(0, 208, 255, 0.678)),url(images/philipp-8Jbo0T-DxUI-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 20px 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-col h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 0.5rem;
+  color: #ffffff;
+}
+
+.logo-col h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.logo-col p {
+  margin-bottom: 1rem;
+  color: #000000;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  border-top: 1px solid #000000;
+  margin-top: 20px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #000000;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 415px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background: white;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 50%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .nav-links.show {
+      display: flex;
+  }
+  .hamburger {
+      display: block;
+  }
+}
+
+
+/* @media screen and (max-width: 415px) {
+  .nav-links {
+      display: none;
+      flex-direction: column;
+      background: white;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 50%;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .nav-links.show {
+      display: flex;
+  }
+  .hamburger {
+      display: block;
+  }
+} */
+
+/* Responsive Design */
+
+
+  /* Responsive */
+  @media (max-width: 768px) {
+      .footer-content {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+    
+      /* .subscribe-form {
+        flex-direction: column;
+      }
+    
+      .subscribe-form input[type="email"] {
+        width: 100%;
+        max-width: 400px;
+      } */
+    }
+
