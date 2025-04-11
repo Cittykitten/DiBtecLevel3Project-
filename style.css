@@ -29,6 +29,11 @@ General Reset
     z-index: 10;
     height: 70px;
 }
+
+@media screen and (max-width: 415px){
+  .book-btn{
+    display: none;
+  }
 nav{
   display: flex;
   justify-content: space-between;
