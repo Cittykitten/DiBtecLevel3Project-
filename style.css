@@ -59,6 +59,13 @@ nav{
     border-radius: 5px;
     text-decoration: none;
 }
+
+@media screen and (max-width: 415px){
+  .book-btn{
+    display: none;
+  }
+  
+  }
 .hamburger {
     display: none;
     font-size: 28px;
@@ -85,7 +92,7 @@ nav{
 } */
 
 .main{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.598), rgba(0, 0, 0, 0.336)),url(images/ancient-hut-decoration-multi-colored-craft-souvenir-generated-by-ai.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.598), rgba(0, 0, 0, 0.336)),url(images/pexels-pinamon-31422622.jpg);
   height: 70vh;
   width: 100%;
   object-fit: cover;
