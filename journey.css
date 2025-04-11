@@ -20,6 +20,7 @@
             z-index: 10;
             height: 90px;
         }
+
         @media screen and (max-width: 415px){
           .book-btn{
             display: none;
